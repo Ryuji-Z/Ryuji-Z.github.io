@@ -1,0 +1,388 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>加賀谷 龍史 / Ryuji Kagaya</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="page-header" id="top">
+    <p class="label">Portfolio</p>
+    <h1>加賀谷 龍史 / Ryuji Kagaya</h1>
+  </header>
+
+  <div class="layout">
+    <aside class="sidebar">
+      <a class="site-name" href="#top">Portfolio</a>
+      <nav aria-label="Page navigation">
+        <a href="#education">Education</a>
+        <a href="#research">Research Topics</a>
+        <a href="#projects">Projects</a>
+        <div class="nav-sub">
+          <a href="#project-gnss">GNSS/QZSS</a>
+          <a href="#project-tsukuba">Tsukuba Challenge</a>
+        </div>
+        <a href="#awards">Awards</a>
+        <a href="#skills">Skills</a>
+        <a href="#profile">Profile</a>
+      </nav>
+    </aside>
+
+    <main>
+      <section id="education">
+        <h2>Education</h2>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>期間</th>
+                <th>所属</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>2019 - 2024</td>
+                <td><strong>小山工業高等専門学校 機械工学科</strong></td>
+              </tr>
+              <tr>
+                <td>2024 - 2026</td>
+                <td><strong>小山工業高等専門学校 複合工学専攻 機械工学コース</strong></td>
+              </tr>
+              <tr>
+                <td>2026 -</td>
+                <td><strong>東京科学大学 工学院 機械コース 修士課程在学中</strong></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section id="research">
+        <h2>Research Topics</h2>
+        <ul>
+          <li><strong>GNSS測位精度のばらつきの統計分析</strong></li>
+          <li><strong>衛星画像に基づくGNSS測位精度の予測</strong></li>
+        </ul>
+        <figure class="wide-image">
+          <img src="assets/research_summary.png" alt="Research summary">
+        </figure>
+        <p class="tags">
+          <b>Keyword :</b>
+          <span>GNSS</span>
+          <span>RTK/CLAS測位</span>
+          <span>移動ロボット</span>
+          <span>車両制御</span>
+          <span>センサフュージョン</span>
+          <span>経路計画</span>
+          <span>シミュレーション</span>
+        </p>
+
+        <h3>Presentations & Publications</h3>
+        <ul class="publication-list">
+          <li>
+            <strong>日本機械学会 ロボティクス・メカトロニクス講演会 2024</strong><br>
+            "<a href="https://www.jstage.jst.go.jp/article/jsmermd/2024/0/2024_1A1-J10/_article/-char/ja/">CLAS測位の誤差の統計的解析と移動ロボットへの実装</a>", 2024.05
+          </li>
+          <li>
+            <strong>日本機械学会 関東支部栃木ブロック研究交流会 2024</strong><br>
+            "GNSS測位における直線運動での変位の分析", 2024.10
+          </li>
+          <li>
+            <strong>日本機械学会 関東支部 第31期総会・講演会</strong><br>
+            "<a href="https://www.jstage.jst.go.jp/article/jsmekanto/2025.31/0/2025.31_04G19/_article/-char/ja/">GNSS測位精度の速度依存性及び衛星画像に基づく測位精度の予測</a>", 2025.03
+          </li>
+        </ul>
+      </section>
+
+      <section id="projects">
+        <h2>Projects</h2>
+
+        <article id="project-gnss">
+          <h3>1. GNSS/QZSS ロボットカーコンテスト</h3>
+          <p class="links">
+            <a href="https://robot-car.jimdofree.com">公式サイト</a>
+            <a href="https://qzss.go.jp/events/robotcar_231127.html">内閣府みちびき公式 2023開催報告</a>
+            <a href="https://qzss.go.jp/events/robotcar_241209.html">内閣府みちびき公式 2024開催報告</a>
+          </p>
+          <div class="image-grid gnss-grid">
+            <figure class="gnss-main">
+              <img class="img-large" src="assets/gnss-robotcar-2.jpg" alt="GNSS/QZSS robot car">
+              <figcaption>作製したラジコンカー</figcaption>
+            </figure>
+            <figure>
+              <img class="img-compact" src="assets/gnss-driving-algorithm.png" alt="走行アルゴリズム">
+              <figcaption>走行アルゴリズム</figcaption>
+            </figure>
+            <figure>
+              <img class="img-medium" src="assets/gnss-steering-comparison.png" alt="前輪後輪操舵の比較">
+              <figcaption>前輪後輪操舵の比較</figcaption>
+            </figure>
+            <figure>
+              <img class="img-medium" src="assets/gnss-wp-ui.png" alt="WP修正UI">
+              <figcaption>WP修正UI</figcaption>
+            </figure>
+            <figure>
+              <img class="img-award" src="assets/gnss-robotcar-1.jpg" alt="GNSS/QZSS robot car contest award">
+              <figcaption>表彰時の写真</figcaption>
+            </figure>
+          </div>
+          <p><strong>概要：</strong><br>
+            　測位航法学会が主催する、GNSS のみでロボットを自律移動させるコンペティションに参加しました。<br>
+            　約 10 校の大学・高専が参加する中、<strong>大会 2 連覇</strong>を達成しました。
+          </p>
+          <p class="video-link"><a href="https://youtu.be/MfBINPeeWks">▶ GNSSコンテスト2023-2025 まとめ動画(後輩向けに作成)</a></p>
+
+          <p><strong>担当（個人参加）：</strong></p>
+          <ul>
+            <li>自律移動ロボット車体の設計・製作</li>
+            <li>自律移動のための走行アルゴリズム実装</li>
+            <li>走行経路生成・調整機能と UI の実装</li>
+            <li>実機検証とパラメータ調整</li>
+          </ul>
+
+          <p><strong>使用技術：</strong></p>
+          <ul>
+            <li>GNSS 高精度測位（RTK / CLAS 測位）</li>
+            <li>Python によるマイコン制御（Raspberry Pi）</li>
+            <li>走行アルゴリズム（Stanley 法・Pure Pursuit 法、PID 制御）</li>
+            <li>速度制御（PWM）</li>
+          </ul>
+        </article>
+
+        <article id="project-tsukuba">
+          <h3>2. つくばチャレンジ</h3>
+          <p class="links">
+            <a href="https://tsukubachallenge.jp/2025/">つくばチャレンジ2025公式サイト</a>
+          </p>
+          <div class="image-grid three-grid">
+            <figure>
+              <img class="img-small" src="assets/tsukuba-challenge-1.jpg" alt="Tsukuba Challenge robot">
+              <figcaption>自律移動ロボット</figcaption>
+            </figure>
+            <figure>
+              <img class="img-medium" src="assets/tsukuba-challenge-2.jpg" alt="Tsukuba Challenge 2025">
+              <figcaption>つくばチャレンジ 2025 参加時の写真</figcaption>
+            </figure>
+            <figure>
+              <img class="img-medium" src="assets/tsukuba-challenge-2025-course.png" alt="つくばチャレンジ2025コース">
+              <figcaption>つくばチャレンジ2025コース</figcaption>
+            </figure>
+          </div>
+          <p><strong>概要：</strong><br>
+            　共同研究を兼ねて、つくば市内の街中を約 2 km 自律移動する実証実験・技術交流の場に参加しました。<br>
+            　完走はできませんでしたが、約 1 km の自律移動を達成しました。
+          </p>
+
+          <p><strong>チーム内での担当：</strong></p>
+          <ul>
+            <li>OSS を組み込んだシステム設計と、ロボット仕様に応じた調整</li>
+            <li>信号機・文字認識のための画像処理:
+              <a href="https://youtu.be/9_HxP4h3-To">▶ 文字認識</a>,
+              <a href="https://youtu.be/RLnf10WMPsA">▶ 信号認識 1</a>,
+              <a href="https://youtu.be/iMxVMhPSoOs">▶ 信号認識 2</a>
+            </li>
+          </ul>
+
+          <p><strong>使用技術：</strong></p>
+          <ul>
+            <li>GNSS、IMU、エンコーダ、LiDAR のセンサフュージョン</li>
+            <li>画像認識モデルを用いた信号機・文字認識</li>
+            <li>セマンティックセグメンテーションを活用したアノテーション</li>
+            <li>自律走行シミュレーション</li>
+          </ul>
+        </article>
+      </section>
+
+      <section id="awards">
+        <h2>Awards</h2>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Year</th>
+                <th>Award</th>
+                <th>Link</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>2024</td>
+                <td>GNSS/QZSS ロボットカーコンテスト 2024 <strong>最優秀賞</strong></td>
+                <td><a href="https://robot-car.jimdofree.com/%E3%82%A2%E3%83%BC%E3%82%AB%E3%82%A4%E3%83%96/2024%E5%B9%B4/2024%E5%B9%B4-%E5%A4%A7%E4%BC%9A%E7%B5%90%E6%9E%9C/">大会結果</a> / <a href="https://qzss.go.jp/events/robotcar_241209.html">開催報告</a></td>
+              </tr>
+              <tr>
+                <td>2023</td>
+                <td>GNSS/QZSS ロボットカーコンテスト 2023 <strong>優勝</strong></td>
+                <td><a href="https://robot-car.jimdofree.com/%E3%82%A2%E3%83%BC%E3%82%AB%E3%82%A4%E3%83%96/2023%E5%B9%B4/2023%E5%B9%B4-%E5%A4%A7%E4%BC%9A%E7%B5%90%E6%9E%9C/">大会結果</a> / <a href="https://qzss.go.jp/events/robotcar_231127.html">開催報告</a></td>
+              </tr>
+              <tr>
+                <td>2022</td>
+                <td>第27回 かわさきロボット競技大会 <strong>協育賞</strong></td>
+                <td><a href="https://kawasaki-sanshinkaikan.jp/robo/robo_old/robo22/27th/battle/results.html">大会結果</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section id="skills">
+        <h2>Skills</h2>
+        <h3>● Programming / Tools</h3>
+        <p class="tags">
+          <span>Python</span>
+          <span>C++</span>
+          <span>MATLAB</span>
+          <span>ROS</span>
+          <span>Git / GitHub</span>
+          <span>Raspberry Pi</span>
+          <span>Arduino</span>
+          <span>SPRESENSE</span>
+          <span>M5Stick</span>
+        </p>
+        <p>ROS上でPython / C++ を用いた自律移動ロボットのシステム構築を行った。SPRESENSE は IMU による自己位置推定、Raspberry Pi・Arduino は電動車椅子・歩行ロボットなどの試作や制御、M5Stick は個人の試作・小規模な電子工作で使用。</p>
+
+        <h3>● Technologies</h3>
+        <p class="tags">
+          <span>GNSS</span>
+          <span>RTK / CLAS</span>
+          <span>センサフュージョン</span>
+          <span>PID制御</span>
+          <span>PWM</span>
+          <span>TCP/UDP</span>
+          <span>レイキャスティング</span>
+          <span>SDF</span><br>
+          <span>セマンティックセグメンテーション</span>
+          <span>物体認識</span>
+          <span>OCR</span>
+          <span>主成分分析</span>
+        </p>
+        <p>GNSS は研究での測位精度解析と GNSS/QZSS ロボットカーコンテストの自律走行に使用。走行アルゴリズムでは Stanley 法、Pure Pursuit 法、PID 制御を扱った。<br>
+        レイキャスティング・SDFは研究において、環境がGNSS測位精度にあたえる影響を定量化し、指標を提案するために活用。</p>
+
+        <h3>● Manufacturing</h3>
+        <p class="tags">
+          <span>CAD</span>
+          <span>3Dモデリング</span>
+          <span>3Dプリント</span>
+          <span>機械加工</span>
+        </p>
+        <p>CAD は日常的な部品設計、特にプロトタイプ・外装部品（フェンダーなど）の 3D プリントに使用。部品同士の干渉確認やリンク機構の動作確認およびシミュレーションに活用。機械加工では、旋盤、コンターマシン、研削機、ワイヤーカット、レーザー加工機、マシニングセンタなどを使用。</p>
+      </section>
+
+      <section id="profile">
+        <h2>Profile</h2>
+        <h3>Hobbies</h3>
+        <ul>
+          <li><strong>モノづくり:</strong> 部活動では「かわさきロボット競技大会」に出場するために、リンク機構の 4 足ロボットを作製しました。</li>
+          <li><strong>バイク:</strong> ツーリングに行くのが好きです。最近では蔵王の御釜、群馬県の赤城神社に行きました。</li>
+          <li><strong>スポーツ全般:</strong> 中学・高専ではバドミントン部に所属していました。最近はボルダリングにハマっています。</li>
+        </ul>
+        <div class="image-grid three-grid">
+          <figure>
+            <img class="img-profile-large" src="assets/kawasaki-robot.jpg" alt="Kawasaki robot competition robot">
+            <figcaption>かわさきロボット競技大会の機体</figcaption>
+          </figure>
+          <figure>
+            <img class="img-medium" src="assets/profile-activity-1.png" alt="Motorcycle">
+            <figcaption>愛車Rebel250</figcaption>
+          </figure>
+          <figure>
+            <img class="img-medium" src="assets/bouldering.png" alt="Bouldering">
+            <figcaption>最近ハマっているボルダリング</figcaption>
+          </figure>
+        </div>
+        <p><strong>Qualifications:</strong><br>空手初段 / 基本情報技術者試験 / TOEIC 810 / 普通自動車第一種運転免許 / 普通自動二輪車免許</p>
+        <p><strong>Special Skills:</strong><br>空手（11年間、全国大会準優勝経験） / キックボクシング（5年間）</p>
+
+        <h3>Activities</h3>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Category</th>
+                <th>Activities</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>留学</td>
+                <td>シンガポール留学（研究室配属 1 か月）</td>
+              </tr>
+              <tr>
+                <td>部活動</td>
+                <td>バドミントン（中学・高専） / かわさきロボット研究愛好会（高専）</td>
+              </tr>
+              <tr>
+                <td>アルバイト</td>
+                <td>TA / 県南ゼミ講師（自校学生への指導） / 家庭教師</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <footer class="page-footer" id="contacts">
+    <h2>Contacts</h2>
+    <p><strong>Email：</strong> <a href="mailto:kagayaryuji1209@gmail.com">kagayaryuji1209@gmail.com</a></p>
+  </footer>
+
+  <div class="lightbox" aria-hidden="true">
+    <button type="button" aria-label="閉じる">×</button>
+    <img src="" alt="">
+  </div>
+
+  <script>
+    const observedTargets = document.querySelectorAll("main section, main article[id], footer[id]");
+    const navLinks = document.querySelectorAll(".sidebar nav a");
+
+    const setActiveLink = (id) => {
+      navLinks.forEach((link) => {
+        const isCurrent = link.getAttribute("href") === `#${id}`;
+        link.classList.toggle("active", isCurrent);
+      });
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) setActiveLink(entry.target.id);
+      });
+    }, {
+      rootMargin: "-35% 0px -55% 0px",
+      threshold: 0
+    });
+
+    observedTargets.forEach((target) => observer.observe(target));
+
+    const lightbox = document.querySelector(".lightbox");
+    const lightboxImage = lightbox.querySelector("img");
+    const closeButton = lightbox.querySelector("button");
+
+    document.querySelectorAll("main img").forEach((image) => {
+      image.addEventListener("click", () => {
+        lightboxImage.src = image.src;
+        lightboxImage.alt = image.alt;
+        lightbox.classList.add("is-open");
+        lightbox.setAttribute("aria-hidden", "false");
+      });
+    });
+
+    const closeLightbox = () => {
+      lightbox.classList.remove("is-open");
+      lightbox.setAttribute("aria-hidden", "true");
+      lightboxImage.src = "";
+      lightboxImage.alt = "";
+    };
+
+    closeButton.addEventListener("click", closeLightbox);
+    lightbox.addEventListener("click", (event) => {
+      if (event.target === lightbox) closeLightbox();
+    });
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "Escape") closeLightbox();
+    });
+  </script>
+</body>
+</html>
