@@ -61,7 +61,7 @@
       <section id="research">
         <h2>Research Topics</h2>
         <ul>
-          <li><strong>GNSS測位精度のばらつきの統計分析</strong></li>
+          <li><strong>GNSS測位精度のばらつきにおける統計分析</strong></li>
           <li><strong>衛星画像に基づくGNSS測位精度の予測</strong></li>
         </ul>
         <figure class="wide-image">
@@ -128,8 +128,8 @@
             </figure>
           </div>
           <p><strong>概要：</strong><br>
-            　測位航法学会が主催する、GNSS のみでロボットを自律移動させるコンペティションに参加しました。<br>
-            　約 10 校の大学・高専が参加する中、<strong>大会 2 連覇</strong>を達成しました。
+            　測位航法学会が主催する、GNSS のみでロボットを自律移動させるコンペティションに2023-2025年の3年間参加しました。<br>
+            　約 10 校の大学・高専が参加する中、2023年と2024年に<strong>大会 2 連覇</strong>を達成しました。
           </p>
           <p class="video-link"><a href="https://youtu.be/MfBINPeeWks">▶ GNSSコンテスト2023-2025 まとめ動画(後輩向けに作成)</a></p>
 
@@ -170,8 +170,9 @@
             </figure>
           </div>
           <p><strong>概要：</strong><br>
-            　共同研究を兼ねて、つくば市内の街中を約 2 km 自律移動する実証実験・技術交流の場に参加しました。<br>
-            　完走はできませんでしたが、約 1 km の自律移動を達成しました。
+            　共同研究を兼ねて、つくば市内の街中を約 2 km 自律移動する実証実験・技術交流の場に3年間参加しました。<br>
+            　仲間と協力し３年目にはコースの半分である約 1 km の自律移動を達成しました。大学院においても周囲を巻き込み、<br>
+            　参加に向けて活動しています。
           </p>
 
           <p><strong>チーム内での担当：</strong></p>
@@ -186,12 +187,13 @@
 
           <p><strong>使用技術：</strong></p>
           <ul>
-            <li>GNSS、IMU、エンコーダ、LiDAR のセンサフュージョン</li>
+            <li>GNSS、IMU、エンコーダおよびLiDAR のセンサフュージョン</li>
             <li>画像認識モデルを用いた信号機・文字認識</li>
             <li>セマンティックセグメンテーションを活用したアノテーション</li>
             <li>自律走行シミュレーション</li>
           </ul>
         </article>
+
       </section>
 
       <section id="awards">
@@ -274,7 +276,59 @@
         <h2>Profile</h2>
         <h3>Hobbies</h3>
         <ul>
-          <li><strong>モノづくり:</strong> 部活動では「かわさきロボット競技大会」に出場するために、リンク機構の 4 足ロボットを作製しました。</li>
+          <li>
+            <strong>モノづくり:</strong> 部活動では「かわさきロボット競技大会」に出場するために、リンク機構の 4 足ロボットを作製しました。
+            <div class="hobby-work" data-hobby-tabs>
+              <div class="hobby-tab-list" aria-label="個人制作">
+                <button type="button" class="hobby-tab" data-hobby-tab="game" aria-expanded="false" aria-controls="hobby-game">個人制作：ゲーム制作</button>
+                <button type="button" class="hobby-tab" data-hobby-tab="graph" aria-expanded="false" aria-controls="hobby-graph">個人制作：GUIグラフ作成ツール</button>
+              </div>
+
+              <div class="hobby-panel" id="hobby-game" data-hobby-panel="game" hidden>
+                <p>
+                  動物タワーバトルを模倣した、人間タワーバトルを制作しました。
+                  PCのカメラでリアルタイムにキャプチャした画像をブロックとして扱い、積み上げていくゲームです。
+                  AIを活用し、3日ほどで完成させました。
+                </p>
+                <figure class="game-preview">
+                  <img src="https://img.youtube.com/vi/A-nT3PhVn_c/maxresdefault.jpg" alt="人間タワーバトルのプレイ画面">
+                  <figcaption>人間タワーバトルのプレイ画面</figcaption>
+                </figure>
+                <p class="tags">
+                  <span>Python</span>
+                  <span>OpenCV</span>
+                  <span>MediaPipe</span>
+                  <span>Pygame</span>
+                  <span>Pymunk</span>
+                  <span>NumPy</span>
+                  <span>Webカメラ処理</span>
+                  <span>リアルタイム画像処理</span>
+                  <span>物理演算</span>
+                </p>
+                <p><a href="https://youtu.be/A-nT3PhVn_c">▶ プレイ動画</a></p>
+              </div>
+
+              <div class="hobby-panel" id="hobby-graph" data-hobby-panel="graph" hidden>
+                <p>
+                  CSV / XLSX データからグラフを作成し、軸・凡例・目盛・配色などをGUI上で調整できるツールを作製しました。
+                  開発期間は2週間程度です。Pythonで実装し、PyInstallerを用いてexe化しました。
+                  Tkinterの標準UIは見た目が古く感じたため、CustomTkinterを使い、モダンなUIになるようにこだわりました。
+                </p>
+                <figure class="tool-preview">
+                  <img src="assets/gui-graph-tool.png" alt="GUIグラフ作成ツールの画面">
+                  <figcaption>GUIグラフ作成ツールの画面</figcaption>
+                </figure>
+                <p class="tags">
+                  <span>Python</span>
+                  <span>CustomTkinter</span>
+                  <span>PyInstaller</span>
+                  <span>CSV/XLSX</span>
+                  <span>グラフ描画</span>
+                  <span>データ可視化</span>
+                </p>
+              </div>
+            </div>
+          </li>
           <li><strong>バイク:</strong> ツーリングに行くのが好きです。最近では蔵王の御釜、群馬県の赤城神社に行きました。</li>
           <li><strong>スポーツ全般:</strong> 中学・高専ではバドミントン部に所属していました。最近はボルダリングにハマっています。</li>
         </ul>
@@ -289,7 +343,7 @@
           </figure>
           <figure>
             <img class="img-medium" src="assets/bouldering.png" alt="Bouldering">
-            <figcaption>最近ハマっているボルダリング</figcaption>
+            <figcaption>マイブームのボルダリング</figcaption>
           </figure>
         </div>
         <p><strong>Qualifications:</strong><br>空手初段 / 基本情報技術者試験 / TOEIC 810 / 普通自動車第一種運転免許 / 普通自動二輪車免許</p>
@@ -327,6 +381,7 @@
   <footer class="page-footer" id="contacts">
     <h2>Contacts</h2>
     <p><strong>Email：</strong> <a href="mailto:kagayaryuji1209@gmail.com">kagayaryuji1209@gmail.com</a></p>
+    <p> <a href="https://www.youtube.com/channel/UCtUk-U6MxWCbHHhmOjC0xRw">YouTube Channel</a></p>
   </footer>
 
   <div class="lightbox" aria-hidden="true">
@@ -355,6 +410,32 @@
     });
 
     observedTargets.forEach((target) => observer.observe(target));
+
+    document.querySelectorAll("[data-hobby-tabs]").forEach((group) => {
+      const tabs = group.querySelectorAll("[data-hobby-tab]");
+      const panels = group.querySelectorAll("[data-hobby-panel]");
+
+      tabs.forEach((tab) => {
+        tab.addEventListener("click", () => {
+          const selectedKey = tab.dataset.hobbyTab;
+          const isOpen = tab.classList.contains("is-active");
+
+          tabs.forEach((item) => {
+            item.classList.remove("is-active");
+            item.setAttribute("aria-expanded", "false");
+          });
+          panels.forEach((panel) => {
+            panel.hidden = true;
+          });
+
+          if (isOpen) return;
+
+          tab.classList.add("is-active");
+          tab.setAttribute("aria-expanded", "true");
+          group.querySelector(`[data-hobby-panel="${selectedKey}"]`).hidden = false;
+        });
+      });
+    });
 
     const lightbox = document.querySelector(".lightbox");
     const lightboxImage = lightbox.querySelector("img");
